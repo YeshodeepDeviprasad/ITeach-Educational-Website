@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/joiningstyles.css">
+    <title>Student Joining Form</title>
+</head>
+<body>
+
+<div class="container">
+    <form class="joining-form">
+        <h2>Student Joining Form</h2>
+        <div class="input-field">
+            <label for="childName">Child's Name:</label>
+            <input type="text" id="childName" name="childName" required>
+        </div>
+        <div class="input-field">
+            <label for="parentName">Parent's Name:</label>
+            <input type="text" id="parentName" name="parentName" required>
+        </div>
+        <div class="input-field">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+        </div>
+        <div class="input-field">
+            <label for="grade">Grade/Class:</label>
+            <input type="text" id="grade" name="grade" required>
+        </div>
+        <div class="input-field">
+            <label for="favoriteSubject">Contect Number:</label>
+            <input type="number" id="favoriteSubject" name="favoriteSubject" required>
+        </div>
+        <div class="input-field">
+            <label for="funFact">Institution Name:</label>
+            <textarea id="funFact" name="funFact" rows="3" required></textarea>
+        </div>
+        <div class="buttons">
+            <button onclick="validateForm()">Join Now</button>
+        </div>
+        
+        
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
